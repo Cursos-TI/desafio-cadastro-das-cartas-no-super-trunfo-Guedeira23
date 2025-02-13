@@ -22,10 +22,14 @@ int main() {
     int cod_cidade, pontos_turisticos;
     char nome_cidade[20];
     float populacao, area, pib;
-
+    // irei pedir o código da cidade e declarar ele com um printf.
     printf("digite o código da cidade:\n");
     scanf("%d", &cod_cidade);
-    printf("o código da sua cidade é:%d\n", cod_cidade);
+    printf("o código da sua cidade é: %d\n", cod_cidade);
+
+    printf("digite o nome da cidade:\n");
+    scanf("%s", &nome_cidade);
+    printf("o nome da sua cidade é: %s\n", nome_cidade);
 
     return 0;
 }
